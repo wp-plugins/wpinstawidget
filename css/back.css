@@ -1,0 +1,18 @@
+#igwconst {}
+#igwconst * {box-sizing:border-box;}
+	#igwconst input,
+	#igwconst select,
+	#igwconst textarea {width:100%;}
+	#igwconst textarea,
+	#igwconst_result textarea {resize:none;}
+.igwc-row {}
+	.igwc-col {display:inline-block;vertical-align:top;padding:8px;width:200px;margin:0 16px 8px 0;}
+	.igwc-col-left {}
+	.igwc-col-right {}
+		.igwc-lbl {display:block;}
+		.igwc-sel {}
+		.igwc-inp {}
+		
+#igwconst_result {display:none;}
+#igwconst_result_code {background:#ddd;font-family:monospace;padding:4px 8px;width:100%;max-width:500px;}
+#igwconst_result {margin:16px 0 0;}
