@@ -1,6 +1,6 @@
 <?php
 /*
-	* Plugin Name: WpInstaWidget
+	* Plugin Name: Wp InstaWidget
 	* Plugin URI: http://starsinstagram.ru
 	* Description: Display Your Instagram Profile into WordPress Site.
 	* Version: 1.1
