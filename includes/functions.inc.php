@@ -273,7 +273,7 @@ function igw_getHtmlCode( $args = null ) {
 	
 	$body = array();
 	$body[] = '<div id="igwidget" style="width:'.$width.'px;text-align:center;">';
-	$body[] = '<span>powered by <a id="igwlink" href="http://starsinstagram.ru/" target="_blank" style="font-size:8px !important;display:block !important;padding:2px !important;color:#346088 !important;text-decoration:none !important;width:100% !important;">starsinstagram.ru</a></span>';
+	$body[] = '<span style="font-size:8px !important;display:block !important;padding:2px !important;width:100% !important;">powered by <a id="igwlink" href="http://starsinstagram.ru/" target="_blank" style="color:#346088 !important;text-decoration:none !important;">starsinstagram.ru</a></span>';
 	$body[] = '<script id="igwscript" type="text/javascript" src="http://starsinstagram.ru/igw/igw_js.php?name='.$username.'&amp;theme='.$theme.'&amp;h='.$height.'&amp;count='.$count.'" async></script>';
 	$body[] = '</div>';
 	
